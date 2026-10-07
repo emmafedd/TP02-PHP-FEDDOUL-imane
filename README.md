@@ -17,3 +17,19 @@
 8. Exercice 8 : while, do-while, break, continue
 9. Exercice 9 : tableaux associatifs
 10. Exercice 10 : formulaires GET et POST
+
+## Exercice 5 : conditions (if / elseif / else)
+
+Fichier : `ex05.php`
+
+J'ai testé la variable `$moyenne` avec plusieurs valeurs en la modifiant dans le code, puis en actualisant la page dans le navigateur.
+
+-1  Note invalide 
+ 9  Non validé 
+10  Passable 
+12  Assez bien 
+14  Bien 
+16  Très bien 
+1  Note invalide 
+
+Les valeurs limites (10, 12, 14 et 16) sont bien traitées : chacune passe dans la mention supérieure. Les notes hors de l'intervalle 0 à 20 (-1 et 21) affichent « Note invalide » et ne reçoivent aucune mention.
